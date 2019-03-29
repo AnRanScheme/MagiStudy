@@ -6,4 +6,4 @@
   Copyright © 2019 anran. All rights reserved.
 */
 
-"CFBundleDisplayName" = "MagiStudy"
+CFBundleDisplayName = "MagiStudy";

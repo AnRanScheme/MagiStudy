@@ -6,4 +6,4 @@
   Copyright © 2019 anran. All rights reserved.
 */
 
-"CFBundleDisplayName" = "魔法学习"
+CFBundleDisplayName = "魔法学习";

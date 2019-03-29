@@ -24,6 +24,34 @@
 		35E667AD224DBD4D00A26E70 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E667AC224DBD4D00A26E70 /* RxCocoa.framework */; };
 		35E667AF224DBE2700A26E70 /* MagiStudyLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E667AE224DBE2700A26E70 /* MagiStudyLaunchScreen.storyboard */; };
 		35E667B7224DBF7900A26E70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35E667B9224DBF7900A26E70 /* Localizable.strings */; };
+		35E667D5224E077D00A26E70 /* MagiStudyAppDepedencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667D4224E077D00A26E70 /* MagiStudyAppDepedencyContainer.swift */; };
+		35E667D7224E07ED00A26E70 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667D6224E07ED00A26E70 /* MainViewController.swift */; };
+		35E667D9224E080900A26E70 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667D8224E080900A26E70 /* LaunchViewController.swift */; };
+		35E667DB224E082100A26E70 /* LaunchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667DA224E082100A26E70 /* LaunchRootView.swift */; };
+		35E667DD224E085500A26E70 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667DC224E085500A26E70 /* BrowseViewController.swift */; };
+		35E667E4224E094800A26E70 /* UIViewController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667E2224E094800A26E70 /* UIViewController+Ex.swift */; };
+		35E667E6224E096B00A26E70 /* MagiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667E5224E096B00A26E70 /* MagiViewController.swift */; };
+		35E667E8224E097700A26E70 /* MagiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667E7224E097700A26E70 /* MagiView.swift */; };
+		35E667EA224E099300A26E70 /* MagiNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667E9224E099300A26E70 /* MagiNavgationController.swift */; };
+		35E667F3224E0CBE00A26E70 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667F2224E0CBE00A26E70 /* UserSession.swift */; };
+		35E667F5224E0CCC00A26E70 /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667F4224E0CCC00A26E70 /* LogMessage.swift */; };
+		35E667F7224E0CDD00A26E70 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667F6224E0CDD00A26E70 /* UserProfile.swift */; };
+		35E667F9224E0CEF00A26E70 /* FakeURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667F8224E0CEF00A26E70 /* FakeURL.swift */; };
+		35E667FB224E0D0A00A26E70 /* NewsAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667FA224E0D0A00A26E70 /* NewsAccount.swift */; };
+		35E667FD224E0D2000A26E70 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667FC224E0D2000A26E70 /* Secret.swift */; };
+		35E667FF224E0D3000A26E70 /* DataKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E667FE224E0D3000A26E70 /* DataKitError.swift */; };
+		35E66801224E0D7B00A26E70 /* UserSessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E66800224E0D7B00A26E70 /* UserSessionRepository.swift */; };
+		35E66803224E0DA200A26E70 /* MagiStudyUserSessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E66802224E0DA200A26E70 /* MagiStudyUserSessionRepository.swift */; };
+		35E66805224E0DCD00A26E70 /* RemoteUserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E66804224E0DCD00A26E70 /* RemoteUserSession.swift */; };
+		35E66807224E0DFB00A26E70 /* UserSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E66806224E0DFB00A26E70 /* UserSessionStore.swift */; };
+		35E66809224E0E1100A26E70 /* FakeUserSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E66808224E0E1100A26E70 /* FakeUserSessionStore.swift */; };
+		35E6680B224E0E2700A26E70 /* FileBaseUserSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6680A224E0E2700A26E70 /* FileBaseUserSessionStore.swift */; };
+		35E6680E224E0E6900A26E70 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6680D224E0E6900A26E70 /* MainViewModel.swift */; };
+		35E66810224E0E7F00A26E70 /* MainViewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6680F224E0E7F00A26E70 /* MainViewStatus.swift */; };
+		35E66812224E0EAD00A26E70 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E66811224E0EAD00A26E70 /* LaunchViewModel.swift */; };
+		35E66814224E0ECB00A26E70 /* GuideResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E66813224E0ECB00A26E70 /* GuideResponder.swift */; };
+		35E66816224E0EEE00A26E70 /* SignedInResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E66815224E0EEE00A26E70 /* SignedInResponder.swift */; };
+		35E66818224E0F0E00A26E70 /* BrowseResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E66817224E0F0E00A26E70 /* BrowseResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +116,34 @@
 		35E667AE224DBE2700A26E70 /* MagiStudyLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MagiStudyLaunchScreen.storyboard; sourceTree = "<group>"; };
 		35E667B8224DBF7900A26E70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		35E667BA224DBFFD00A26E70 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		35E667D4224E077D00A26E70 /* MagiStudyAppDepedencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiStudyAppDepedencyContainer.swift; sourceTree = "<group>"; };
+		35E667D6224E07ED00A26E70 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		35E667D8224E080900A26E70 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		35E667DA224E082100A26E70 /* LaunchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRootView.swift; sourceTree = "<group>"; };
+		35E667DC224E085500A26E70 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		35E667E2224E094800A26E70 /* UIViewController+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ex.swift"; sourceTree = "<group>"; };
+		35E667E5224E096B00A26E70 /* MagiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiViewController.swift; sourceTree = "<group>"; };
+		35E667E7224E097700A26E70 /* MagiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiView.swift; sourceTree = "<group>"; };
+		35E667E9224E099300A26E70 /* MagiNavgationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiNavgationController.swift; sourceTree = "<group>"; };
+		35E667F2224E0CBE00A26E70 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		35E667F4224E0CCC00A26E70 /* LogMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMessage.swift; sourceTree = "<group>"; };
+		35E667F6224E0CDD00A26E70 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		35E667F8224E0CEF00A26E70 /* FakeURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeURL.swift; sourceTree = "<group>"; };
+		35E667FA224E0D0A00A26E70 /* NewsAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAccount.swift; sourceTree = "<group>"; };
+		35E667FC224E0D2000A26E70 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		35E667FE224E0D3000A26E70 /* DataKitError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataKitError.swift; sourceTree = "<group>"; };
+		35E66800224E0D7B00A26E70 /* UserSessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionRepository.swift; sourceTree = "<group>"; };
+		35E66802224E0DA200A26E70 /* MagiStudyUserSessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiStudyUserSessionRepository.swift; sourceTree = "<group>"; };
+		35E66804224E0DCD00A26E70 /* RemoteUserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserSession.swift; sourceTree = "<group>"; };
+		35E66806224E0DFB00A26E70 /* UserSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionStore.swift; sourceTree = "<group>"; };
+		35E66808224E0E1100A26E70 /* FakeUserSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeUserSessionStore.swift; sourceTree = "<group>"; };
+		35E6680A224E0E2700A26E70 /* FileBaseUserSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBaseUserSessionStore.swift; sourceTree = "<group>"; };
+		35E6680D224E0E6900A26E70 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		35E6680F224E0E7F00A26E70 /* MainViewStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewStatus.swift; sourceTree = "<group>"; };
+		35E66811224E0EAD00A26E70 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		35E66813224E0ECB00A26E70 /* GuideResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideResponder.swift; sourceTree = "<group>"; };
+		35E66815224E0EEE00A26E70 /* SignedInResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedInResponder.swift; sourceTree = "<group>"; };
+		35E66817224E0F0E00A26E70 /* BrowseResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +223,7 @@
 		3580BB23224B0DF6000865FD /* MagiStudyUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				35E667DE224E094800A26E70 /* Reusable */,
 				3580BB24224B0DF6000865FD /* MagiStudyUIKit.h */,
 				3580BB25224B0DF6000865FD /* Info.plist */,
 			);
@@ -176,6 +233,8 @@
 		3580BB35224B0E0B000865FD /* MagiStudyDataKit */ = {
 			isa = PBXGroup;
 			children = (
+				35E667C2224E056B00A26E70 /* DataLayer */,
+				35E667C1224E056300A26E70 /* PresentLayer */,
 				3580BB36224B0E0B000865FD /* MagiStudyDataKit.h */,
 				3580BB37224B0E0B000865FD /* Info.plist */,
 			);
@@ -185,6 +244,7 @@
 		3580BB46224B0E21000865FD /* MagiStudy_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				35E667BB224E046800A26E70 /* iOSApp */,
 				3580BB47224B0E21000865FD /* MagiStudy_iOS.h */,
 				3580BB48224B0E21000865FD /* Info.plist */,
 			);
@@ -201,6 +261,206 @@
 				35E667A4224DBC9300A26E70 /* Kingfisher.xcworkspace */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35E667BB224E046800A26E70 /* iOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				35E667D4224E077D00A26E70 /* MagiStudyAppDepedencyContainer.swift */,
+				35E667D6224E07ED00A26E70 /* MainViewController.swift */,
+				35E667D8224E080900A26E70 /* LaunchViewController.swift */,
+				35E667DA224E082100A26E70 /* LaunchRootView.swift */,
+				35E667DC224E085500A26E70 /* BrowseViewController.swift */,
+				35E667BC224E046800A26E70 /* PreSignIn */,
+			);
+			path = iOSApp;
+			sourceTree = "<group>";
+		};
+		35E667BC224E046800A26E70 /* PreSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				35E6681C224E108500A26E70 /* ContactUs */,
+				35E66819224E108500A26E70 /* ResetPassword */,
+				35E6681A224E108500A26E70 /* SignIn */,
+				35E6681B224E108500A26E70 /* SignUp */,
+				35E6681D224E108500A26E70 /* Welcome */,
+			);
+			path = PreSignIn;
+			sourceTree = "<group>";
+		};
+		35E667C1224E056300A26E70 /* PresentLayer */ = {
+			isa = PBXGroup;
+			children = (
+				35E6680C224E0E5700A26E70 /* Guide */,
+				35E6680D224E0E6900A26E70 /* MainViewModel.swift */,
+				35E6680F224E0E7F00A26E70 /* MainViewStatus.swift */,
+				35E66811224E0EAD00A26E70 /* LaunchViewModel.swift */,
+				35E66813224E0ECB00A26E70 /* GuideResponder.swift */,
+				35E66815224E0EEE00A26E70 /* SignedInResponder.swift */,
+				35E66817224E0F0E00A26E70 /* BrowseResponder.swift */,
+			);
+			path = PresentLayer;
+			sourceTree = "<group>";
+		};
+		35E667C2224E056B00A26E70 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				35E667EC224E0C9800A26E70 /* Repositories */,
+				35E667EB224E0BBD00A26E70 /* Model */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		35E667DE224E094800A26E70 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				35E667DF224E094800A26E70 /* UIKit */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		35E667DF224E094800A26E70 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				35E667E0224E094800A26E70 /* MagiNibLess */,
+				35E667E1224E094800A26E70 /* Extension */,
+				35E667E3224E094800A26E70 /* Style */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		35E667E0224E094800A26E70 /* MagiNibLess */ = {
+			isa = PBXGroup;
+			children = (
+				35E667E7224E097700A26E70 /* MagiView.swift */,
+				35E667E5224E096B00A26E70 /* MagiViewController.swift */,
+				35E667E9224E099300A26E70 /* MagiNavgationController.swift */,
+			);
+			path = MagiNibLess;
+			sourceTree = "<group>";
+		};
+		35E667E1224E094800A26E70 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				35E667E2224E094800A26E70 /* UIViewController+Ex.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		35E667E3224E094800A26E70 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		35E667EB224E0BBD00A26E70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35E667F2224E0CBE00A26E70 /* UserSession.swift */,
+				35E667F4224E0CCC00A26E70 /* LogMessage.swift */,
+				35E667F6224E0CDD00A26E70 /* UserProfile.swift */,
+				35E667F8224E0CEF00A26E70 /* FakeURL.swift */,
+				35E667FA224E0D0A00A26E70 /* NewsAccount.swift */,
+				35E667FC224E0D2000A26E70 /* Secret.swift */,
+				35E667FE224E0D3000A26E70 /* DataKitError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35E667EC224E0C9800A26E70 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				35E66800224E0D7B00A26E70 /* UserSessionRepository.swift */,
+				35E66802224E0DA200A26E70 /* MagiStudyUserSessionRepository.swift */,
+				35E667ED224E0C9800A26E70 /* Persistence */,
+				35E667F0224E0C9800A26E70 /* Remote */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		35E667ED224E0C9800A26E70 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				35E667EE224E0C9800A26E70 /* UserSessionStore */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		35E667EE224E0C9800A26E70 /* UserSessionStore */ = {
+			isa = PBXGroup;
+			children = (
+				35E66806224E0DFB00A26E70 /* UserSessionStore.swift */,
+				35E667EF224E0C9800A26E70 /* Implementations */,
+			);
+			path = UserSessionStore;
+			sourceTree = "<group>";
+		};
+		35E667EF224E0C9800A26E70 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				35E66808224E0E1100A26E70 /* FakeUserSessionStore.swift */,
+				35E6680A224E0E2700A26E70 /* FileBaseUserSessionStore.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		35E667F0224E0C9800A26E70 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				35E66804224E0DCD00A26E70 /* RemoteUserSession.swift */,
+				35E667F1224E0C9800A26E70 /* Auth */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		35E667F1224E0C9800A26E70 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		35E6680C224E0E5700A26E70 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		35E66819224E108500A26E70 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		35E6681A224E108500A26E70 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		35E6681B224E108500A26E70 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		35E6681C224E108500A26E70 /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContactUs;
+			sourceTree = "<group>";
+		};
+		35E6681D224E108500A26E70 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Welcome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,12 +584,15 @@
 					};
 					3580BB21224B0DF6000865FD = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					3580BB33224B0E0B000865FD = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					3580BB44224B0E20000865FD = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -430,6 +693,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E667EA224E099300A26E70 /* MagiNavgationController.swift in Sources */,
+				35E667E6224E096B00A26E70 /* MagiViewController.swift in Sources */,
+				35E667E4224E094800A26E70 /* UIViewController+Ex.swift in Sources */,
+				35E667E8224E097700A26E70 /* MagiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +704,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E66818224E0F0E00A26E70 /* BrowseResponder.swift in Sources */,
+				35E667FF224E0D3000A26E70 /* DataKitError.swift in Sources */,
+				35E66816224E0EEE00A26E70 /* SignedInResponder.swift in Sources */,
+				35E66801224E0D7B00A26E70 /* UserSessionRepository.swift in Sources */,
+				35E66814224E0ECB00A26E70 /* GuideResponder.swift in Sources */,
+				35E66807224E0DFB00A26E70 /* UserSessionStore.swift in Sources */,
+				35E667F5224E0CCC00A26E70 /* LogMessage.swift in Sources */,
+				35E667FD224E0D2000A26E70 /* Secret.swift in Sources */,
+				35E66810224E0E7F00A26E70 /* MainViewStatus.swift in Sources */,
+				35E667F3224E0CBE00A26E70 /* UserSession.swift in Sources */,
+				35E66812224E0EAD00A26E70 /* LaunchViewModel.swift in Sources */,
+				35E667F9224E0CEF00A26E70 /* FakeURL.swift in Sources */,
+				35E6680E224E0E6900A26E70 /* MainViewModel.swift in Sources */,
+				35E667FB224E0D0A00A26E70 /* NewsAccount.swift in Sources */,
+				35E66809224E0E1100A26E70 /* FakeUserSessionStore.swift in Sources */,
+				35E667F7224E0CDD00A26E70 /* UserProfile.swift in Sources */,
+				35E66803224E0DA200A26E70 /* MagiStudyUserSessionRepository.swift in Sources */,
+				35E6680B224E0E2700A26E70 /* FileBaseUserSessionStore.swift in Sources */,
+				35E66805224E0DCD00A26E70 /* RemoteUserSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +730,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E667D5224E077D00A26E70 /* MagiStudyAppDepedencyContainer.swift in Sources */,
+				35E667DB224E082100A26E70 /* LaunchRootView.swift in Sources */,
+				35E667D9224E080900A26E70 /* LaunchViewController.swift in Sources */,
+				35E667D7224E07ED00A26E70 /* MainViewController.swift in Sources */,
+				35E667DD224E085500A26E70 /* BrowseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +892,7 @@
 		3580BB1B224B0DA8000865FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TDBLA72SEX;
@@ -623,6 +915,7 @@
 		3580BB1C224B0DA8000865FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TDBLA72SEX;
@@ -645,6 +938,7 @@
 		3580BB2C224B0DF6000865FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -663,6 +957,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = www.anran.com.MagiStudyUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -673,6 +968,7 @@
 		3580BB2D224B0DF6000865FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -701,6 +997,7 @@
 		3580BB3E224B0E0B000865FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -719,6 +1016,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = www.anran.com.MagiStudyDataKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -729,6 +1027,7 @@
 		3580BB3F224B0E0B000865FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -757,6 +1056,7 @@
 		3580BB4F224B0E21000865FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -775,6 +1075,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "www.anran.com.MagiStudy-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -785,6 +1086,7 @@
 		3580BB50224B0E21000865FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
