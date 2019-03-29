@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3580BB0C224B0DA6000865FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580BB0B224B0DA6000865FD /* AppDelegate.swift */; };
+		3580BB13224B0DA8000865FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3580BB12224B0DA8000865FD /* Assets.xcassets */; };
+		3580BB26224B0DF6000865FD /* MagiStudyUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3580BB24224B0DF6000865FD /* MagiStudyUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3580BB29224B0DF6000865FD /* MagiStudyUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3580BB22224B0DF6000865FD /* MagiStudyUIKit.framework */; };
+		3580BB2A224B0DF6000865FD /* MagiStudyUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3580BB22224B0DF6000865FD /* MagiStudyUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3580BB38224B0E0B000865FD /* MagiStudyDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3580BB36224B0E0B000865FD /* MagiStudyDataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3580BB3B224B0E0B000865FD /* MagiStudyDataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3580BB34224B0E0B000865FD /* MagiStudyDataKit.framework */; };
+		3580BB3C224B0E0B000865FD /* MagiStudyDataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3580BB34224B0E0B000865FD /* MagiStudyDataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3580BB49224B0E21000865FD /* MagiStudy_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3580BB47224B0E21000865FD /* MagiStudy_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3580BB4C224B0E21000865FD /* MagiStudy_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3580BB45224B0E20000865FD /* MagiStudy_iOS.framework */; };
+		3580BB4D224B0E21000865FD /* MagiStudy_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3580BB45224B0E20000865FD /* MagiStudy_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35E667A7224DBD1E00A26E70 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E667A6224DBD1E00A26E70 /* PromiseKit.framework */; };
+		35E667A9224DBD2900A26E70 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E667A8224DBD2900A26E70 /* Kingfisher.framework */; };
+		35E667AB224DBD3600A26E70 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E667AA224DBD3600A26E70 /* RxSwift.framework */; };
+		35E667AD224DBD4D00A26E70 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E667AC224DBD4D00A26E70 /* RxCocoa.framework */; };
+		35E667AF224DBE2700A26E70 /* MagiStudyLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E667AE224DBE2700A26E70 /* MagiStudyLaunchScreen.storyboard */; };
+		35E667B7224DBF7900A26E70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35E667B9224DBF7900A26E70 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3580BB27224B0DF6000865FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3580BB00224B0DA6000865FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3580BB21224B0DF6000865FD;
+			remoteInfo = MagiStudyUIKit;
+		};
+		3580BB39224B0E0B000865FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3580BB00224B0DA6000865FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3580BB33224B0E0B000865FD;
+			remoteInfo = MagiStudyDataKit;
+		};
+		3580BB4A224B0E21000865FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3580BB00224B0DA6000865FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3580BB44224B0E20000865FD;
+			remoteInfo = MagiStudy_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3580BB2E224B0DF6000865FD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3580BB2A224B0DF6000865FD /* MagiStudyUIKit.framework in Embed Frameworks */,
+				3580BB4D224B0E21000865FD /* MagiStudy_iOS.framework in Embed Frameworks */,
+				3580BB3C224B0E0B000865FD /* MagiStudyDataKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3580BB08224B0DA6000865FD /* MagiStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagiStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3580BB0B224B0DA6000865FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3580BB12224B0DA8000865FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3580BB17224B0DA8000865FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3580BB22224B0DF6000865FD /* MagiStudyUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagiStudyUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3580BB24224B0DF6000865FD /* MagiStudyUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagiStudyUIKit.h; sourceTree = "<group>"; };
+		3580BB25224B0DF6000865FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3580BB34224B0E0B000865FD /* MagiStudyDataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagiStudyDataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3580BB36224B0E0B000865FD /* MagiStudyDataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagiStudyDataKit.h; sourceTree = "<group>"; };
+		3580BB37224B0E0B000865FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3580BB45224B0E20000865FD /* MagiStudy_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagiStudy_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3580BB47224B0E21000865FD /* MagiStudy_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagiStudy_iOS.h; sourceTree = "<group>"; };
+		3580BB48224B0E21000865FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E667A4224DBC9300A26E70 /* Kingfisher.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = Kingfisher.xcworkspace; path = Carthage/Checkouts/Kingfisher/Kingfisher.xcworkspace; sourceTree = "<group>"; };
+		35E667A6224DBD1E00A26E70 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+		35E667A8224DBD2900A26E70 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		35E667AA224DBD3600A26E70 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		35E667AC224DBD4D00A26E70 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		35E667AE224DBE2700A26E70 /* MagiStudyLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MagiStudyLaunchScreen.storyboard; sourceTree = "<group>"; };
+		35E667B8224DBF7900A26E70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		35E667BA224DBFFD00A26E70 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3580BB05224B0DA6000865FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E667AD224DBD4D00A26E70 /* RxCocoa.framework in Frameworks */,
+				35E667AB224DBD3600A26E70 /* RxSwift.framework in Frameworks */,
+				35E667A9224DBD2900A26E70 /* Kingfisher.framework in Frameworks */,
+				35E667A7224DBD1E00A26E70 /* PromiseKit.framework in Frameworks */,
+				3580BB29224B0DF6000865FD /* MagiStudyUIKit.framework in Frameworks */,
+				3580BB4C224B0E21000865FD /* MagiStudy_iOS.framework in Frameworks */,
+				3580BB3B224B0E0B000865FD /* MagiStudyDataKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB1F224B0DF6000865FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB31224B0E0B000865FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB42224B0E20000865FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3580BAFF224B0DA6000865FD = {
+			isa = PBXGroup;
+			children = (
+				3580BB0A224B0DA6000865FD /* MagiStudy */,
+				3580BB46224B0E21000865FD /* MagiStudy_iOS */,
+				3580BB23224B0DF6000865FD /* MagiStudyUIKit */,
+				3580BB35224B0E0B000865FD /* MagiStudyDataKit */,
+				3580BB09224B0DA6000865FD /* Products */,
+				35E667A3224DBC9200A26E70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3580BB09224B0DA6000865FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3580BB08224B0DA6000865FD /* MagiStudy.app */,
+				3580BB22224B0DF6000865FD /* MagiStudyUIKit.framework */,
+				3580BB34224B0E0B000865FD /* MagiStudyDataKit.framework */,
+				3580BB45224B0E20000865FD /* MagiStudy_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3580BB0A224B0DA6000865FD /* MagiStudy */ = {
+			isa = PBXGroup;
+			children = (
+				3580BB0B224B0DA6000865FD /* AppDelegate.swift */,
+				3580BB12224B0DA8000865FD /* Assets.xcassets */,
+				35E667AE224DBE2700A26E70 /* MagiStudyLaunchScreen.storyboard */,
+				3580BB17224B0DA8000865FD /* Info.plist */,
+				35E667B9224DBF7900A26E70 /* Localizable.strings */,
+			);
+			path = MagiStudy;
+			sourceTree = "<group>";
+		};
+		3580BB23224B0DF6000865FD /* MagiStudyUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				3580BB24224B0DF6000865FD /* MagiStudyUIKit.h */,
+				3580BB25224B0DF6000865FD /* Info.plist */,
+			);
+			path = MagiStudyUIKit;
+			sourceTree = "<group>";
+		};
+		3580BB35224B0E0B000865FD /* MagiStudyDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				3580BB36224B0E0B000865FD /* MagiStudyDataKit.h */,
+				3580BB37224B0E0B000865FD /* Info.plist */,
+			);
+			path = MagiStudyDataKit;
+			sourceTree = "<group>";
+		};
+		3580BB46224B0E21000865FD /* MagiStudy_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3580BB47224B0E21000865FD /* MagiStudy_iOS.h */,
+				3580BB48224B0E21000865FD /* Info.plist */,
+			);
+			path = MagiStudy_iOS;
+			sourceTree = "<group>";
+		};
+		35E667A3224DBC9200A26E70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35E667AC224DBD4D00A26E70 /* RxCocoa.framework */,
+				35E667AA224DBD3600A26E70 /* RxSwift.framework */,
+				35E667A8224DBD2900A26E70 /* Kingfisher.framework */,
+				35E667A6224DBD1E00A26E70 /* PromiseKit.framework */,
+				35E667A4224DBC9300A26E70 /* Kingfisher.xcworkspace */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3580BB1D224B0DF6000865FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580BB26224B0DF6000865FD /* MagiStudyUIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB2F224B0E0B000865FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580BB38224B0E0B000865FD /* MagiStudyDataKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB40224B0E20000865FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580BB49224B0E21000865FD /* MagiStudy_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3580BB07224B0DA6000865FD /* MagiStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3580BB1A224B0DA8000865FD /* Build configuration list for PBXNativeTarget "MagiStudy" */;
+			buildPhases = (
+				3580BB04224B0DA6000865FD /* Sources */,
+				3580BB05224B0DA6000865FD /* Frameworks */,
+				3580BB06224B0DA6000865FD /* Resources */,
+				3580BB2E224B0DF6000865FD /* Embed Frameworks */,
+				35E667A2224DBB7D00A26E70 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3580BB28224B0DF6000865FD /* PBXTargetDependency */,
+				3580BB3A224B0E0B000865FD /* PBXTargetDependency */,
+				3580BB4B224B0E21000865FD /* PBXTargetDependency */,
+			);
+			name = MagiStudy;
+			productName = MagiStudy;
+			productReference = 3580BB08224B0DA6000865FD /* MagiStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3580BB21224B0DF6000865FD /* MagiStudyUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3580BB2B224B0DF6000865FD /* Build configuration list for PBXNativeTarget "MagiStudyUIKit" */;
+			buildPhases = (
+				3580BB1D224B0DF6000865FD /* Headers */,
+				3580BB1E224B0DF6000865FD /* Sources */,
+				3580BB1F224B0DF6000865FD /* Frameworks */,
+				3580BB20224B0DF6000865FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagiStudyUIKit;
+			productName = MagiStudyUIKit;
+			productReference = 3580BB22224B0DF6000865FD /* MagiStudyUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3580BB33224B0E0B000865FD /* MagiStudyDataKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3580BB3D224B0E0B000865FD /* Build configuration list for PBXNativeTarget "MagiStudyDataKit" */;
+			buildPhases = (
+				3580BB2F224B0E0B000865FD /* Headers */,
+				3580BB30224B0E0B000865FD /* Sources */,
+				3580BB31224B0E0B000865FD /* Frameworks */,
+				3580BB32224B0E0B000865FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagiStudyDataKit;
+			productName = MagiStudyDataKit;
+			productReference = 3580BB34224B0E0B000865FD /* MagiStudyDataKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3580BB44224B0E20000865FD /* MagiStudy_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3580BB4E224B0E21000865FD /* Build configuration list for PBXNativeTarget "MagiStudy_iOS" */;
+			buildPhases = (
+				3580BB40224B0E20000865FD /* Headers */,
+				3580BB41224B0E20000865FD /* Sources */,
+				3580BB42224B0E20000865FD /* Frameworks */,
+				3580BB43224B0E20000865FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagiStudy_iOS;
+			productName = MagiStudy_iOS;
+			productReference = 3580BB45224B0E20000865FD /* MagiStudy_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3580BB00224B0DA6000865FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = anran;
+				TargetAttributes = {
+					3580BB07224B0DA6000865FD = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3580BB21224B0DF6000865FD = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3580BB33224B0E0B000865FD = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3580BB44224B0E20000865FD = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 3580BB03224B0DA6000865FD /* Build configuration list for PBXProject "MagiStudy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3580BAFF224B0DA6000865FD;
+			productRefGroup = 3580BB09224B0DA6000865FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3580BB07224B0DA6000865FD /* MagiStudy */,
+				3580BB21224B0DF6000865FD /* MagiStudyUIKit */,
+				3580BB33224B0E0B000865FD /* MagiStudyDataKit */,
+				3580BB44224B0E20000865FD /* MagiStudy_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3580BB06224B0DA6000865FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580BB13224B0DA8000865FD /* Assets.xcassets in Resources */,
+				35E667B7224DBF7900A26E70 /* Localizable.strings in Resources */,
+				35E667AF224DBE2700A26E70 /* MagiStudyLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB20224B0DF6000865FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB32224B0E0B000865FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB43224B0E20000865FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35E667A2224DBB7D00A26E70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3580BB04224B0DA6000865FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580BB0C224B0DA6000865FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB1E224B0DF6000865FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB30224B0E0B000865FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580BB41224B0E20000865FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3580BB28224B0DF6000865FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3580BB21224B0DF6000865FD /* MagiStudyUIKit */;
+			targetProxy = 3580BB27224B0DF6000865FD /* PBXContainerItemProxy */;
+		};
+		3580BB3A224B0E0B000865FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3580BB33224B0E0B000865FD /* MagiStudyDataKit */;
+			targetProxy = 3580BB39224B0E0B000865FD /* PBXContainerItemProxy */;
+		};
+		3580BB4B224B0E21000865FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3580BB44224B0E20000865FD /* MagiStudy_iOS */;
+			targetProxy = 3580BB4A224B0E21000865FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35E667B9224DBF7900A26E70 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35E667B8224DBF7900A26E70 /* en */,
+				35E667BA224DBFFD00A26E70 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3580BB18224B0DA8000865FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3580BB19224B0DA8000865FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3580BB1B224B0DA8000865FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MagiStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.anran.com.MagiStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3580BB1C224B0DA8000865FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MagiStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.anran.com.MagiStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3580BB2C224B0DF6000865FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MagiStudyUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.anran.com.MagiStudyUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3580BB2D224B0DF6000865FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MagiStudyUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.anran.com.MagiStudyUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3580BB3E224B0E0B000865FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MagiStudyDataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.anran.com.MagiStudyDataKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3580BB3F224B0E0B000865FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MagiStudyDataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.anran.com.MagiStudyDataKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3580BB4F224B0E21000865FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MagiStudy_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.anran.com.MagiStudy-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3580BB50224B0E21000865FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MagiStudy_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.anran.com.MagiStudy-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3580BB03224B0DA6000865FD /* Build configuration list for PBXProject "MagiStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580BB18224B0DA8000865FD /* Debug */,
+				3580BB19224B0DA8000865FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3580BB1A224B0DA8000865FD /* Build configuration list for PBXNativeTarget "MagiStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580BB1B224B0DA8000865FD /* Debug */,
+				3580BB1C224B0DA8000865FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3580BB2B224B0DF6000865FD /* Build configuration list for PBXNativeTarget "MagiStudyUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580BB2C224B0DF6000865FD /* Debug */,
+				3580BB2D224B0DF6000865FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3580BB3D224B0E0B000865FD /* Build configuration list for PBXNativeTarget "MagiStudyDataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580BB3E224B0E0B000865FD /* Debug */,
+				3580BB3F224B0E0B000865FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3580BB4E224B0E21000865FD /* Build configuration list for PBXNativeTarget "MagiStudy_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580BB4F224B0E21000865FD /* Debug */,
+				3580BB50224B0E21000865FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3580BB00224B0DA6000865FD /* Project object */;
+}
